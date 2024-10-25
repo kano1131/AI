@@ -205,9 +205,9 @@ def test():
     restore_and_save('test/results1.csv','test/back_results1.csv',mean_values, mean_price)
 
 if __name__ == "__main__":
-    mean_price, mean_values = normalize_and_save('data/1/data1.csv','data2/1/results1.csv',True)
+    mean_price, mean_values = normalize_and_save('D:\\data\\AI110\\data\\1\\data1.csv','D:\\data\\AI110\\data2\\1\\results1.csv',True)
     #mean_values = np.array([Decimal('1876164.64'), Decimal('805175.27'), Decimal('84029105.94'), Decimal('214278092.8'), Decimal('22441.52301'), Decimal('40452.84447')])
     #mean_price = np.array([Decimal('0.001671617'), Decimal('0.001671116'), Decimal('0.00167093432'), Decimal('0.001670284972'), Decimal('0.0016716898'), Decimal('0.0009713214')])
-    restore_and_save('data2/1/results1.csv','data2/1/back_results1.csv',mean_values, mean_price)
+    restore_and_save('D:\\data\\AI110\\data2\\1\\results1.csv','D:\\data\\AI110\\data2\\1\\back_results1.csv',mean_values, mean_price)
     
     
