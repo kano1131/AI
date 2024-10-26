@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\AI110\\",
+  "WorkspaceRootPath": "D:\\project\\Python\\AI110\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D25CF5CA-969B-4EAA-9A32-CEF445504C74}|AI110.pyproj|C:\\Users\\Administrator\\source\\repos\\AI110\\AI110.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{D25CF5CA-969B-4EAA-9A32-CEF445504C74}|AI110.pyproj|solutionrelative:AI110.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\project\\Python\\AI110\\api.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\project\\Python\\AI110\\agent.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:agent.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AI110.py",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\AI110\\AI110.py",
-              "RelativeDocumentMoniker": "AI110.py",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\AI110\\AI110.py",
-              "RelativeToolTip": "AI110.py",
+              "Title": "api.py",
+              "DocumentMoniker": "D:\\project\\Python\\AI110\\api.py",
+              "RelativeDocumentMoniker": "api.py",
+              "ToolTip": "D:\\project\\Python\\AI110\\api.py",
+              "RelativeToolTip": "api.py",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2024-10-24T15:25:07.981Z",
+              "WhenOpened": "2024-10-26T05:09:20.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "agent.py",
+              "DocumentMoniker": "D:\\project\\Python\\AI110\\agent.py",
+              "RelativeDocumentMoniker": "agent.py",
+              "ToolTip": "D:\\project\\Python\\AI110\\agent.py",
+              "RelativeToolTip": "agent.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-10-26T05:09:18.786Z",
               "EditorCaption": ""
             }
           ]

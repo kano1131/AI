@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d25cf5ca-969b-4eaa-9a32-cef445504c74</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>AI110.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -12,6 +13,7 @@
     <Name>AI110</Name>
     <RootNamespace>AI110</RootNamespace>
     <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +24,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AI110.py" />
+    <Compile Include="agent.py" />
+    <Compile Include="api.py" />
+    <Compile Include="data_pro.py" />
+    <Compile Include="env.py" />
+    <Compile Include="kano\kano.py" />
+    <Compile Include="test.py" />
+    <Compile Include="toolsec_agent.py" />
+    <Compile Include="toolsec_api.py" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
@@ -34,6 +43,9 @@
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
       <Architecture>X64</Architecture>
     </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="kano\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
