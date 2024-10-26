@@ -3,7 +3,7 @@ from decimal import Decimal, getcontext
 from typing import List, Tuple
 
 import numpy as np
-from numpy import ndarray
+
 
 getcontext().prec = 10  # 设置精度为10位
 
